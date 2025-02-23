@@ -158,11 +158,6 @@ void WriteToFile(string filename, int size, int inc)
 
 int main()
 {
-////    vector<int> vec {2, 1, 3, 4, 6, 7, 9, 8, 10, 5};
-//    vector<int> vec {7884, 2220, 2883, 160, 3498, 4665, 9455, 9493, 8848, 972};
-////    vector<int> vec = RandomVector(10);
-//    TimSort(vec, 0, vec.size() - 1, 7);
-
     string filename = "sortingTimes1.csv";
     WriteToFile(filename, 500, 20);
 
@@ -174,7 +169,6 @@ int main()
 
     string filename4 = "sortingTimes4.csv";
     WriteToFile(filename4, 2000, 160);
-
 
     return 0;
 }
